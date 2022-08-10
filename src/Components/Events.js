@@ -3,7 +3,10 @@ import React from 'react'
 export default function Events() {
     return (
         <div style={{
-            backgroundColor: "cyan"
+            backgroundColor: "#97B7E7",
+            margin:"20px",
+            borderRadius: "2rem",
+
         }}>
             <h1
                 className="eventHead"
