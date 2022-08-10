@@ -1,0 +1,14 @@
+.MainPage{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(205, 205, 205); */
+    /* justify-content: center; */
+    
+}
+.SubBanner{
+    margin: auto;
+    margin-top: -100px;
+    border-radius: 10px;
+    /* background-image: url(C:\Users\YRH\Desktop\MaitIndia\my-app\public\banner.jpg); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

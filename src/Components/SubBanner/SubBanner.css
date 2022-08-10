@@ -1,0 +1,22 @@
+.SubBanner{
+    height: 400px;
+    width: calc(100% - 600px);
+    background-image: url(https://img.freepik.com/free-vector/decorative-tricolor-indian-flag-theme-texture_1055-7757.jpg?size=338&ext=jpg&uid=R75902323);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.SubBanner div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    margin: auto;
+
+}
+.event{
+    font-size: larger;
+}

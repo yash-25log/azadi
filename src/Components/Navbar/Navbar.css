@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+}
+.Navbar{
+    display: grid;
+    grid-template-columns: 120px  auto 180px;
+    height: 120px;
+    background-image: radial-gradient(circle, rgb(255, 197, 115), rgb(255, 157, 0), rgb(255, 166, 0));
+    /* background-color: rgb(255, 111, 0); */
+    /* background-image: url(https://img.freepik.com/free-vector/beautiful-tricolor-indian-flag-theme-texture-design_1035-22036.jpg?size=626&ext=jpg&uid=R75902323); */
+    
+    
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    gap: 3rem;
+    font-size: larger;
+}
+.menu-items{
+    padding: 3px;
+    font-weight: bold;
+    font-size: large;
+}
+.register-login{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-left: 0;
+    
+}
+.register button{
+    font-size: larger;
+    border-radius: 14px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-color: #4CAF50;
+   
+}
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+.Login{
+    display: flex;
+    
+}
+.Login-img{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 30px;
+}
+.Login-content{
+    font-size: larger;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

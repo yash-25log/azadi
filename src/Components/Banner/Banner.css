@@ -1,0 +1,52 @@
+.Banner{
+    height: 600px;
+
+    display: flex;
+    background-color: rgb(86, 252, 86);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-left{
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    height: 100%;
+    width: 50vw;
+    /* border: 2px solid red; */
+    
+}
+.banner-right{
+    display: flex;
+    
+    justify-content: center;
+    width: 50vw;
+    padding: 10px;
+    height: 55vh;
+    /* border: 2px solid red; */
+
+}
+.banner-right>div{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    width: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-right >div>img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+.event-heading{
+    
+    gap: 20px;
+}
+.event-heading img{
+    height: 250px;
+    width:250px
+    
+}
