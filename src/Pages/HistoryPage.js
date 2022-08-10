@@ -1,4 +1,5 @@
 import {FcSearch} from 'react-icons/fc'
+import {BsDownload} from 'react-icons/bs'
 import TextField from '@mui/material/TextField'
 import Card from '@mui/material/Card'
 import  CardMedia  from '@mui/material/CardMedia'
@@ -21,6 +22,7 @@ function Historypage() {
 <p style={{fontSize:"20px",paddingTop:"30px",paddingLeft:"20px",width:"25%",fontWeight:"bolder"}}>MARATHON <br></br> <br></br> August 14,2022</p>
 <img src="image 13.png" alt="" style={{height:"100px",paddingTop:"40px"}} />
 <img src="image 14.png" alt="" style={{height:"100px" ,paddingTop:"40px" ,paddingLeft:"30px"}} />
+<BsDownload style={{height:"40px",width:"40px",ItemAlign:"right",paddingTop:"125px",paddingLeft:"110px"}}/>
 </div>
 </div>
 
